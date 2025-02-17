@@ -50,6 +50,72 @@ mark {
   background-color: transparent;
   color: inherit; }
 
+.sticky-note {
+    width: 250px;
+    height: 250px;
+    font-weight: bold;
+    /*font-family: Arial, sans-serif;*/
+    color: #323131;
+    cursor: pointer;
+    transition: transform 0.2s;
+    padding: 10px;
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.2);
+    text-align: center;
+    font-weight: bold;
+}
+
+.sticky-note-bruit {
+  background-color: #f2acde;
+  transform: rotate(-3deg);
+}
+.sticky-note-depenses {
+  background-color: #edabab;
+  transform: rotate(3deg);
+}
+.sticky-note-task {
+  background-color: #ecd5f4;
+  transform: rotate(6deg);
+}
+
+
+
+#sticky-notes {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr); /* 4 colonnes */
+  gap: 5px; /* Espacement entre les post-it */
+  justify-items: center; /* Centrer les éléments */
+  
+}
+
+
+
+.sticky-note:hover {
+    transform: scale(1.1) rotate(1deg);
+}
+
+
+
+
+/*.post-it {
+  width: 150px;
+  height: 150px;
+  background: #ffeb3b;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+  transform: rotate(-5deg);
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+}*/
+
+.sticky-note img {
+  max-width: 40%;
+  max-height: 40%;
+  object-fit: contain;
+}
+
+
 input::-moz-focus-inner {
   border: 0;
   padding: 0; }
@@ -1930,6 +1996,7 @@ button,
   transition: margin-left 0.5s ease, box-shadow 0.5s ease;
   background-color: #f5f6f7;
   font-size: 0.9em;
+  pointer-events: none;
   position: relative;
   width: 26em; }
   #sidebar h2 {
