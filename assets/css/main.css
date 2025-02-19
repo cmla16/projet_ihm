@@ -58,10 +58,14 @@ mark {
     color: #323131;
     cursor: pointer;
     transition: transform 0.2s;
-    padding: 10px;
+    padding: 5px;
     box-shadow: 2px 2px 10px rgba(0,0,0,0.2);
     text-align: center;
     font-weight: bold;
+    display: flex;
+    flex-direction: column; /* Image en haut, texte en bas */
+    justify-content: space-between; /* Répartit bien l'espace */
+    align-items: center; /
 }
 
 .sticky-note-bruit {
@@ -90,7 +94,7 @@ mark {
 
 
 .sticky-note:hover {
-    transform: scale(1.1) rotate(1deg);
+    transform: scale(1.12) rotate(1deg);
 }
 
 
@@ -109,10 +113,68 @@ mark {
   border-radius: 5px;
 }*/
 
+
 .sticky-note img {
-  max-width: 40%;
-  max-height: 40%;
+  max-width: 80%;
+  max-height: 80%;
+
   object-fit: contain;
+}
+
+#robot{
+
+  max-width: 100%;
+  max-height: 80%;
+  
+}
+
+#decibel{
+  max-width: 100%;
+  max-height: 100%;
+}
+
+#alert-bruit{
+  max-width: 100%;
+  max-height: 100%;
+}
+
+#task-bonus{
+
+  max-width: 100% ; /* 100% de la largeur de l'écran */
+  max-height: auto; /* 100% de la hauteur de l'écran */
+  
+
+}
+
+#sourd{
+
+  max-width: 100% ; /* 100% de la largeur de l'écran */
+  max-height: auto;
+
+}
+
+#cb{
+  max-width: 100% ; /* 100% de la largeur de l'écran */
+  max-height: auto;
+}
+
+#chatbot{
+  
+  max-width: 100% ; /* 100% de la largeur de l'écran */
+  max-height: auto;
+
+}
+
+#voleur{
+  max-width: 100%;
+  max-height: 100%;
+}
+
+
+.sticky-note p{
+  font-size: 14px;
+    margin: 5px 0 0 0; /* Petite marge en haut pour l’aérer */
+  
 }
 
 
