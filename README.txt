@@ -1,30 +1,21 @@
-Editorial by HTML5 UP
-html5up.net | @ajlkn
-Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+# SmartColoc
+
+## Participants
+- Camelia
+- Michelle
+- Jules
+- Simon
+
+## Description
+SmartColoc est un projet visant à faciliter la gestion des tâches, des dépenses et du bruit en colocation grâce à une application interactive.
 
 
-Say hello to Editorial, a blog/magazine-ish template built around a toggleable "locking"
-sidebar (scroll down to see what I mean) and an accordion-style menu. Not the usual landing
-page/portfolio affair you'd expect to see at HTML5 UP, but I figured for my 41st (!!!)
-template I'd change it up a little. Enjoy :)
-
-Demo images* courtesy of Unsplash, a radtastic collection of CC0 (public domain) images
-you can use for pretty much whatever.
-
-(* = not included)
-
-AJ
-aj@lkn.io | @ajlkn
+## Objectif
+Offrir une solution intuitive et efficace pour améliorer la cohabitation en colocation.
 
 
-Credits:
+## Fonctionnalités principales
+- Gestion des tâches ménagères avec rappels et suivi.
+- Répartition et suivi des dépenses communes.
+- Outils pour limiter et signaler les nuisances sonores.
 
-	Demo Images:
-		Unsplash (unsplash.com)
-
-	Icons:
-		Font Awesome (fontawesome.io)
-
-	Other:
-		jQuery (jquery.com)
-		Responsive Tools (github.com/ajlkn/responsive-tools)
