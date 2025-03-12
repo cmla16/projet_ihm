@@ -191,6 +191,23 @@ mark {
   
 }
 
+.personas{
+  
+}
+
+.head-personas{
+
+  display: flex;
+  align-items: center;
+  column-gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.head-personas img{
+  width: 150px;
+  border-radius: 1.5rem;
+}
+
 
 input::-moz-focus-inner {
   border: 0;
