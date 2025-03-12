@@ -204,7 +204,8 @@ mark {
 }
 
 .head-personas img{
-  width: 150px;
+  /*width: 150px;*/
+  width: 15%;
   border-radius: 1.5rem;
 }
 
